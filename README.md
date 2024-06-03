@@ -15,5 +15,16 @@ Desarrollar una aplicación que gestione la información de mascotas y sus propi
 
 ## Modelo conceptual
 ![Modelo conceptual PetCare](https://raw.githubusercontent.com/PatriciaMartinezFernandez/PROYECTO-SUBIDA-DE-NOTA/main/bd/Conceptual.png)
+
+## Modelo conceptual
+![Modelo logico PetCare](https://raw.githubusercontent.com/PatriciaMartinezFernandez/PROYECTO-SUBIDA-DE-NOTA/main/bd/Logico.png)
+
+- Propietario(**dniPK**, nombre, direccion, numMascotas)
+- Mascota(**idPK**, apodo, nombreVulgar, nombreCientifico, sexo, anioNacimiento, _propietarioFK_, tipo)
+- Mamifero(**_idPKFK_**, raza, pedigri)
+- Ave(**_idPKFK_**, tipoPlumaje, habitos)
+- Reptil(**_idPKFK_**, tipoEscamas)
+- Pez(**_idPKFK_**, tipoAgua)
+
 ## UML
 ![UML PetCare](https://raw.githubusercontent.com/PatriciaMartinezFernandez/PROYECTO-SUBIDA-DE-NOTA/main/uml/PetCare.png)
