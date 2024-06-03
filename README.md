@@ -16,7 +16,7 @@ Desarrollar una aplicación que gestione la información de mascotas y sus propi
 ## Modelo conceptual
 ![Modelo conceptual PetCare](https://raw.githubusercontent.com/PatriciaMartinezFernandez/PROYECTO-SUBIDA-DE-NOTA/main/bd/Conceptual.png)
 
-## Modelo conceptual
+## Modelo lógico
 ![Modelo logico PetCare](https://raw.githubusercontent.com/PatriciaMartinezFernandez/PROYECTO-SUBIDA-DE-NOTA/main/bd/Logico.png)
 
 - Propietario(**dniPK**, nombre, direccion, numMascotas)
